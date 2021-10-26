@@ -1,6 +1,6 @@
 <h1>NLW/Heat Impulse</h1>
 
-<h4>Projeto desenvolvido na missão impulse do Next Level Week Heat - Mission: Impulse.</h4>
+<h4>Projeto desenvolvido na missão impulse do Next Level Week Heat.</h4>
 
 <p>A proposta do desafio era desenvolver uma aplicação onde as pessoas podem compartilhar suas expectativas sobre o DoWhile 2021. O projeto pode ser dividido em quatro partes.</p>
 <p><b>Stage 1</b> - Criamos o backend da aplicação utlizando NodeJS(node_heat). Nesse projeto iremos utilizamos Typescript, que auxilia no aumento da produtividade em desenvolvimento; o Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.</p>
