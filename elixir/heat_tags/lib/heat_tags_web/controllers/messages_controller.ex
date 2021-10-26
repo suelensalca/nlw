@@ -17,5 +17,9 @@ defmodule HeatTagsWeb.MessagesController do
   end
 
   defp handle_create({:error, %{result: result, status: status}}, conn) do
+    conn
+    |> put_status(status)
+    |> put_view(HeatTagsWeb.ErrorView)
+    |> render("error.json", result: result)
   end
 end
